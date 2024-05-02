@@ -1,2 +1,23 @@
 # CDR_prediction
 Demo Jupyter notebook for my kursach
+
+Welcome to the demonstration code for my university annual project (:
+
+The aims of my project were:
+ - to prepare dataset of structures and information about antibodies binding to COVID-19 spike protein RBD epitope
+ - to perform automated prediction of CDRH3 and CDRL3 loops backbones via RFDiffusion
+ - to perform automated prediction of CDRH3 and CDRL3 loops sequences based on predicted backbones via ProteinMPNN
+ - to analyze and visualize results of such prediction
+
+I express my gratitude to the authors of used tools:
+ - RFDiffusion : https://github.com/RosettaCommons/RFdiffusion
+ - ProteinMPNN : https://github.com/dauparas/ProteinMPNN
+
+In main.ipynb you will find all the code I used for the project
+
+If you want to launch code at your own, you will need to prepare some python environments:
+ - Python 3 environment with IPykernel to launch the code in main.ipynb (versions of used libraries are in requirements.txt file)
+ - environment for RFDiffusion version 1.1.0 (all instructions are in RFDiffusion GitHub repo)
+ - environment for ProteinMPNN version 1.0.1 (all instructions are in ProteinMPNN GitHub repo)
+
+Note that RFDiffusion and ProteinMPNN are launched in terminal (main.ipynb contain cells automatically creating shell scripts for this, but you should then execute these scripts manually through the terminal in corresponding environment)
