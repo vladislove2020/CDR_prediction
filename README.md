@@ -21,3 +21,12 @@ If you want to launch code at your own, you will need to prepare some python env
  - environment for ProteinMPNN version 1.0.1 (all instructions are in ProteinMPNN GitHub repo)
 
 Note that RFDiffusion and ProteinMPNN are launched in terminal (main.ipynb contain cells automatically creating shell scripts for this, but you should then execute these scripts manually through the terminal in corresponding environment)
+
+Folder visualization_examples contains some subfolders of the working directory I got after launching all the code in main.ipynb:
+ - global_vis : plots of distributions of RMSDs and sequence alignment scores with wild-type variant for individual predictions
+ - pdb_id_vis : plots for analogous distributions grouped by PDB ID of teh antibody
+ - pymol_vis : pictures and PyMOL session files for designed loops superposed on the wild-type variant
+
+I express my gratitude to the authors of PyMOL, software I used to make molecule visualization : https://pymol.org
+
+Pictures of the structures were generated with default camera angle, so you can open in PyMOL corresponding .pse files, manually rotate camera and make your own pictures
