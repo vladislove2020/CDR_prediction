@@ -1,4 +1,4 @@
-PyMOL session files and automatically generated png files for:
+PyMOL automatically generated png files for:
 - a long CDRH3 example;
 - a short CDRH3 example;
 - a long CDRL3 example;
