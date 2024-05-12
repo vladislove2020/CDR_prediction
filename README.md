@@ -24,7 +24,7 @@ Note that RFDiffusion and ProteinMPNN are launched in terminal (main.ipynb conta
 
 Folder visualization_examples contains some subfolders of the working directory I got after launching all the code in main.ipynb:
  - global_vis : plots of distributions of RMSDs and sequence alignment scores with wild-type variant for individual predictions
- - pdb_id_vis : plots for analogous distributions grouped by PDB ID of the antibody
+ - ramachandran_maps : Ramachandran maps representing torsion angles in predicted loops
  - pymol_vis : pictures and PyMOL session files for designed loops superposed on the wild-type variant
 
 I express my gratitude to the authors of PyMOL, software I used to make molecule visualization : https://pymol.org
